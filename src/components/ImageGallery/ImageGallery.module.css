@@ -1,0 +1,27 @@
+.imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 100px 20px 20px; 
+    list-style: none;
+    margin: 0;
+  }
+  
+  .imageItem {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px; 
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+    background-color: #f8f9fa; 
+  }
+  
+  .imageItem:hover {
+    transform: scale(1.05);
+  }
+  
